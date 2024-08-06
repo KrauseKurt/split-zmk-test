@@ -1,0 +1,8 @@
+#include "split.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&pro_micro 16 GPIO_ACTIVE_HIGH> // col1
+        , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col2
+        ;
+};

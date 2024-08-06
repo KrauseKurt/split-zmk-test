@@ -1,0 +1,13 @@
+file_format: "1"
+id: split
+name: Split
+type: shield
+url: https://github.com/KrauseKurt/split-zmk-test
+requires: [NiceNanoV2]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - split_left
+  - split_right
